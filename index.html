@@ -109,14 +109,15 @@
         <div class="main4">
             <img src="background2.jpg" alt="" class="main4image" />
             <div class="login_form">
-                <form>
+                <form action="registration.php" method="post">
                     <div class="row">
                         <div class="col-md-6 mb-4">
-                            <div class="form-outline">
+                            <div class="form-group">
                                 <input
                                     type="text"
-                                    id="form3Example1"
+                                    id="name"
                                     class="form-control"
+                                    name="name"
                                 />
                                 <label class="form-label" for="form3Example1"
                                     >First name</label
@@ -124,11 +125,12 @@
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <div class="form-outline">
+                            <div class="form-group">
                                 <input
                                     type="text"
-                                    id="form3Example2"
+                                    id="lname"
                                     class="form-control"
+                                    name="lname"
                                 />
                                 <label class="form-label" for="form3Example2"
                                     >Last name</label
@@ -136,18 +138,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-outline mb-4">
+                    <div class="form-group mb-4">
                         <input
                             type="email"
-                            id="form3Example3"
+                            id="email"
                             class="form-control"
+                            name="email"
                         />
                         <label class="form-label" for="form3Example3"
                             >Email address</label
                         >
                     </div>
 
-                    <div class="form-outline mb-4">
+                    <div class="form-group mb-4">
                         <input
                             type="password"
                             id="form3Example4"
@@ -164,7 +167,7 @@
                             type="checkbox"
                             value=""
                             id="form2Example33"
-                            checked
+                            
                         />
                         <label class="form-check-label" for="form2Example33">
                             Remember Me
@@ -208,8 +211,9 @@
                 </form>
             </div>
             <div class="login_border"></div>
-            <h1>Sign Up <br />ㅤ to Start <br />ㅤExploring.</h1>
+            <h1 class="login_text">Sign Up <br />ㅤ to Start <br />ㅤExploring.</h1>
         </div>
+        
 
         <div class="foot">
             <footer class="bg-dark text-center text-white">
@@ -260,6 +264,8 @@
               </footer>
         </div>
         <div class="filler" style="background-color: #292424;"></div>
-        <script src="" async defer></script>
+        <script type="text/javascript" src="" async defer>
+            
+        </script>
     </body>
 </html>
