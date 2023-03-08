@@ -293,7 +293,7 @@ background-image: linear-gradient(180deg, rgba(225,225,225,0.1) 0%, #7f9dff 50%,
     border-radius: 8px;
     width: 20rem;
     position: relative;
-    top:-103rem;
+    top:-105rem;
     left: 53rem;
 
 }
@@ -304,12 +304,20 @@ backdrop-filter: blur(6px);
 width: 28rem;
 border-radius: 8px;
 position: relative;
-top: -137rem;
+top: -143.5rem;
 left:49rem;
-height:38rem ;
+height:42rem ;
 z-index: -1;
 
 }
+
+.login_text{
+position: relative;
+background-color:none44;
+top:-5rem;
+width: 50%;
+padding-top:-8rem;}
+
 .main4 h1{
     font-family:Helvetica, sans-serif;
     font-size: 90px;
